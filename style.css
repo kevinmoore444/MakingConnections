@@ -1,0 +1,352 @@
+*{
+margin: 0px;
+padding: 0px;
+}
+
+/* NAVIGATION BAR */
+
+.navbar{
+    background-color: black;
+    height: 72px;
+    width: 1000px;
+    display: flex;
+}
+.profile-button{
+    color: white;
+    display: flex;
+    align-items: center;
+    margin-left: 100px;
+    margin-right: 20px;
+}
+
+.profile-button a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.profile-button a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons{
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.nav-buttons a{
+    margin: 10px;
+}
+
+.nav-buttons a:link{
+    text-decoration: none;
+    color: white;
+}
+
+.nav-buttons a:visited{
+    text-decoration: none;
+    color: white;
+}
+
+button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: teal;
+    color: white;
+    height: 25px;
+    width: 100px;
+    margin-top: 20px;
+    margin-left: 190px;
+}
+
+/*Left Column*/
+
+.leftcolumn{
+height: 600px;
+width: 400px;
+margin-left: 100px;
+display: flex;
+flex-direction: column;
+flex-wrap: wrap;
+}
+
+
+
+/*USERCARD*/
+
+.usercard{
+    margin-top: 30px;
+}
+
+.usercardrow1{
+    width: 400px;
+    height: 90px;
+    background-color:teal;
+    border: solid grey 3px;
+}
+
+.usercardrow1 img{
+    border-radius: 40px;
+    width: 80px;
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.usercardrow2{
+    width: 400px;
+    height: 260px;
+    border: solid grey 3px;
+}
+
+.usercardname{
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 40px;
+}
+
+.usercardhometown{
+    font-size: 30px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+    display: flex;
+}
+
+.usercardhometown img{
+    border-radius: 3px;
+    width: 18px;
+    padding-right: 7px;
+}
+
+.usercarddescription{
+    font-size: 20px;
+    color: black;
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+.usercardeditprofile{
+    display: flex;
+}
+
+.usercardeditprofile img{
+    border-radius: 10px;
+    width: 30px;
+    padding-left: 10px;
+    padding-top: 15px;
+}
+
+.usercardeditprofile a{
+    padding-left: 10px;
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+
+
+/*EDUCATION*/
+
+.education{
+    margin-top: 30px;
+}
+
+.educationrow1{
+    width: 400px;
+    height: 35px;
+    background-color:rgb(49, 49, 49);
+    border: solid grey 3px;
+    color: white;
+}
+
+.educationrow1 h3{
+    margin-left: 20px;
+    margin-top: 5px;
+}
+
+.educationrow2{
+    width: 400px;
+    height: 105px;
+    border: solid grey 3px;
+}
+
+.educationrow2 h3{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.educationrow2 h4{
+    color: grey;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.educationrow2 h5{
+    color: black;
+    margin-left: 20px;
+    margin-top: 10px;
+    font-size: 18px;
+}
+
+/*CONNECTIONREQUESTS*/
+
+.connectionrequests{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.connectionrequestsrow1{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(49, 49, 49);
+    border: solid grey 3px;
+    display: flex;
+    align-items: center;
+}
+
+.connectionrequestsrow1 button{
+    background-color: rgb(220, 216, 216);
+    color: black;
+    width: 30px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    margin-left: 20px;
+
+}
+
+.connectionrequestsrow1 h3{
+    font-size: 18px;
+    margin-left: 8px;
+    color: white;
+}
+
+.connectionrequestsrow2{
+    width: 250px;
+    height: 130px;
+    border: solid grey 3px;
+}
+
+.connectionrequestsrow2 img{
+    border-radius: 30px;
+    width: 30px;
+    margin-left: 10px;
+}
+
+.connectionrequestsrow2 p{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 50px;
+}
+
+
+.connectionrequestsrow2a{
+    width: 250px;
+    height: 65px;
+    border: solid grey 1px;
+    display: flex;
+    align-items: center;
+}
+
+.connectionrequestsrow2b{
+    width: 250px;
+    height: 65px;
+    border: solid grey 1px;
+    display: flex;
+    align-items: center;
+}
+
+
+/*YOURCONNECTIONS*/
+
+.yourconnections{
+    margin-top: 30px;
+    margin-left: 30px;
+}
+
+.yourconnectionsrow1{
+    width: 250px;
+    height: 50px;
+    background-color:rgb(49, 49, 49);
+    border: solid grey 3px;
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsrow1 button{
+    background-color: rgb(216, 216, 216);
+    color: black;
+    width: 50px;
+    border-radius: 50%;
+    margin-bottom: 18px;
+    margin-left: 20px;
+
+}
+
+.yourconnectionsrow1 h3{
+    font-size: 18px;
+    margin-left: 8px;
+    color: white;
+}
+
+.yourconnectionsrow2{
+    width: 250px;
+    height: 200px;
+    border: solid grey 3px;
+}
+
+.yourconnectionsrow2 img{
+    border-radius: 40px;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.yourconnectionsrow2 p{
+    margin-left: 10px;
+    font-size: 20px;
+}
+
+.yourconnectionsrow2a{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsrow2b{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsrow2c{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsrow2d{
+    width: 250px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+}
+
+.yourconnectionsrow3{
+    width: 250px;
+    height: 50px;
+    border: solid grey 3px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.yourconnectionsrow3 a{
+    font-size: 20px;
+    margin-left: 10px;
+}
+

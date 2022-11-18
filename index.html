@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<!-- Navbar -->
+
+        <div class="navbar">
+            <div class="profile-button">
+                <a href="#"> <h1>Profile</h1></a>
+            </div>
+            <div class="nav-buttons">
+                <a href="#">Home</a>
+                <a href="#">My Profile</a>
+                <a href="#">Find Connections</a>
+            </div>
+            <div class="sign-out">
+                <button type="button">Sign Out</button>
+            </div>
+        </div>
+
+<!-- UserCard -->
+
+        <div class="leftcolumn">
+            <div class="usercard">
+                <div class="usercardrow1">
+                    <img src="user-circle.png" id="user" alt="user-circle">
+                </div>
+                <div class="usercardrow2">
+                    <div class="usercardname">
+                        <h3 id="updatename">Kevin Moore</h3>
+                    </div>
+                    <div class="usercardhometown">
+                        <img src="map-marker.png" alt="map-marker">
+                        <h5>San Bruno</h5>
+                    </div>
+                    <div class="usercarddescription">
+                        <p>Developer | Engineer | Problem Solver</p>
+                        <p>Master of shadows and the Internet!</p>
+                    </div>
+                    <div class="usercardeditprofile">
+                        <img src="gear.png" alt="gear">
+                        <a href="#" onclick="editprofile()">edit profile</a>
+                    </div>
+                </div>
+            </div>
+
+<!-- Education -->
+
+            <div class="education">
+                <div class="educationrow1">
+                    <h3>Education</h3>
+                </div>
+                <div class="educationrow2">
+                    <h3>Coding Dojo - Full Stack Bootcamp</h3>
+                    <h4>Nov 2022 - Mar 2023</h4>
+                    <h5>Triple black belt in Python, MERN, and C#</h5>
+                </div>
+            </div>
+
+<!-- Connection Requests -->
+
+            <div class="connectionrequests">
+                <div class="connectionrequestsrow1">
+                    <button id="connectionrequestcount">2</button>
+                    <h3>Connection Requests</h3>
+                </div>
+                <div class="connectionrequestsrow2">
+                    <div id="deleteuponresponsetodd" class="connectionrequestsrow2a">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p >Todd E</p>
+                        <img src="accept-circle.png" alt="accept-circle" onclick="respondtotodd()">
+                        <img src="close-circle.png" alt="close-circle" onclick="respondtotodd()">
+                    </div>
+                    <div id="deleteuponresponsephil" class="connectionrequestsrow2b">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p>Phil K</p>
+                        <img src="accept-circle.png" id="accept" alt="accept-circle" onclick="respondtophil()">
+                        <img src="close-circle.png" id="close" alt="close-circle" onclick="respondtophil()">
+                    </div>
+                </div>
+            </div>
+
+<!-- Your Connections -->
+
+            <div class="yourconnections">
+                <div class="yourconnectionsrow1">
+                    <button>418</button>
+                    <h3>Your Connections</h3>
+                </div>
+                <div class="yourconnectionsrow2">
+                    <div class="yourconnectionsrow2a">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p>Adrien D</p>
+                    </div>
+                    <div class="yourconnectionsrow2b">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p>Anne J</p>
+                    </div>
+                    <div class="yourconnectionsrow2c">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p>Alayne T</p>
+                    </div>
+                    <div class="yourconnectionsrow2d">
+                        <img src="user-circle.png" id="user" alt="user-circle">
+                        <p>Arry Y</p>
+                    </div>
+                </div>
+                <div class="yourconnectionsrow3">
+                    <a href="#">View More</a>
+                </div>
+            </div>
+        </div>
+
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
